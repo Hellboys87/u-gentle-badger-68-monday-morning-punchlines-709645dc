@@ -6,7 +6,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const joke: string =
-  "Monday morning I woke up a brand-new person. Tragically, the new person had the same job, the same boss, and a 9 a.m. standup.";
+  "Monday morning I woke up a brand-new person. Tragically, the new person had the same job, the same boss, and a 9 a.m. standup — so the rebrand lasted nine minutes.";
 
 if (joke.length === 0) {
   throw new Error("entry line must not be empty");
